@@ -20,6 +20,7 @@ public class MovementCharacter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        ProcessInputs();
         //if (Input.GetKeyDown(KeyCode.Z))
         //{
         //    Vector3 newPosition = targetPosition + new Vector3(0, 1, 0);
